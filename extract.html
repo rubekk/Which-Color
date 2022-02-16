@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WhichColor - Explore colors</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.min.js"
+      integrity="sha512-mMe7BAZPOkGbq+zhRBMNV3Q+5ZDzcUEOJoUYXbHpEcODkDBYbttaW7P108jX66AQgwgsAjvlP4Ayb/XLJZfmsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="css/extract.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="back-sec">
+        <a class="go-back" href="index.html">
+            <img src="imgs/arrow-left.png">
+            <span>Back</span>
+      </a>
+      </div>
+      <div class="abcde"></div>
+      <img class="uploaded-img" src="" />
+      <div class="colors-used">
+        <div class="palettes-sec"></div>
+      </div>
+      <label class="upload-label" for="file">
+        <span>
+          <img src="imgs/upload.png" alt="upload">
+        </span>
+        Upload an image
+      </label>
+      <input class="img-inp" id="file" type="file" />
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
